@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://talbina-sunnah-food.example.com/sitemap.xml

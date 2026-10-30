@@ -1,0 +1,19 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Node (only if you use npx serve / a local tool — never needed for the site itself)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Logs & temp
+*.log
+tmp/
+temp/

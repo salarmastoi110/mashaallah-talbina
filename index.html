@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Ma Sha Allah Talbina | The Sunnah Food for a Healthy Life</title>
+  <meta name="description" content="Ma Sha Allah Talbina — pure, natural, halal Sunnah food. Rich in fibre, boosts energy & immunity. Order easily on WhatsApp. Buy 5 boxes, get 1 free." />
+  <meta name="keywords" content="Talbina, Sunnah food, barley, honey, dates, nuts, halal, natural, Pakistan" />
+  <meta name="author" content="Ma Sha Allah Talbina" />
+  <link rel="canonical" href="https://mashaallah-talbina.example.com/" />
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ma Sha Allah Talbina | The Sunnah Food for a Healthy Life" />
+  <meta property="og:description" content="Pure, natural, halal Sunnah Talbina. Order easily on WhatsApp. Buy 5 boxes, get 1 free." />
+  <meta property="og:image" content="assets/img/poster.png" />
+  <meta property="og:url" content="https://mashaallah-talbina.example.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Fonts: Playfair Display (headings) + Inter (body) + Amiri (Arabic) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Ma Sha Allah Talbina home">
+        <img src="assets/logo-placeholder.svg" alt="Ma Sha Allah Talbina logo" class="brand-logo" />
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#product" class="nav-link">Product</a>
+        <a href="#benefits" class="nav-link">Benefits</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#order" class="nav-link">Order</a>
+        <a href="#order" class="btn btn-gold btn-sm nav-cta">Order on WhatsApp</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HOME / HERO ============ -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <p class="bismillah" lang="ar" dir="rtl">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+          <p class="eyebrow">Pure &bull; Natural &bull; Halal</p>
+          <h1 class="hero-title">Ma Sha Allah <span>Talbina</span></h1>
+          <p class="hero-sub">The Sunnah food for a healthy life — a comforting blend of barley, dates, nuts and seeds, carefully prepared the traditional way.</p>
+          <div class="hero-actions">
+            <a href="#order" class="btn btn-gold">Order Now</a>
+            <a href="#benefits" class="btn btn-ghost">Why Talbina?</a>
+          </div>
+          <ul class="trust-badges">
+            <li>100% Natural</li>
+            <li>No Preservatives</li>
+            <li>Traditional Recipe</li>
+          </ul>
+        </div>
+        <div class="hero-media reveal">
+          <img src="assets/img/poster.png" alt="Ma Sha Allah Talbina — the Sunnah food poster" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCT ============ -->
+    <section class="section product" id="product">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Our Product</p>
+          <h2>Ma Sha Allah Talbina &mdash; 100g Box</h2>
+          <p class="lead">A wholesome, ready-to-enjoy Sunnah superfood. Also available at an affordable price.</p>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-media">
+            <img src="assets/img/product-2.png" alt="Ma Sha Allah Talbina gift box with ribbon" />
+            <span class="offer-badge">Buy 5 Boxes &bull; Get 1 FREE</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Talbina Box (100g)</h3>
+            <p class="product-price" data-price-for="talbina">Rs 600</p>
+            <ul class="product-tags">
+              <li>Sugar Free option</li>
+              <li>No Artificial Flavours</li>
+              <li>Premium Quality</li>
+            </ul>
+            <p class="product-desc">Barley bran blended with dates, almonds, pistachio, raisins and seeds — soothing, nourishing and full of barakah.</p>
+
+            <div class="order-box">
+              <div class="qty-stepper">
+                <button class="qty-btn" data-action="dec" aria-label="Decrease quantity">&minus;</button>
+                <input class="qty-input" type="number" min="0" max="99" value="1" inputmode="numeric" aria-label="Quantity of Talbina boxes" />
+                <button class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+              </div>
+              <div class="live-total">
+                <span class="lt-label">Total</span>
+                <strong class="lt-value" id="heroLiveTotal">Rs 600</strong>
+                <span class="lt-free" id="heroFreeNote" hidden></span>
+              </div>
+            </div>
+            <a href="#order" class="btn btn-whatsapp btn-block btn-lg add-to-order">
+              <span class="wa-ico" aria-hidden="true"></span>
+              Order on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BENEFITS ============ -->
+    <section class="section benefits" id="benefits">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Why Talbina?</p>
+          <h2>Nourishment for Body &amp; Heart</h2>
+        </div>
+
+        <div class="benefits-grid">
+          <article class="benefit-card reveal"><span class="benefit-num">01</span><h3>Rich in Fibre</h3><p>Wholesome barley fibre supports a healthy, comfortable digestion.</p></article>
+          <article class="benefit-card reveal"><span class="benefit-num">02</span><h3>Supports Digestion</h3><p>Gentle and soothing — easy on the stomach, kind to the body.</p></article>
+          <article class="benefit-card reveal"><span class="benefit-num">03</span><h3>Boosts Energy &amp; Immunity</h3><p>Natural dates, nuts and seeds fuel steady energy and resilience.</p></article>
+          <article class="benefit-card reveal"><span class="benefit-num">04</span><h3>A Comforting Superfood</h3><p>A heart-warming Sunnah food, recommended by the Prophet &#65012;.</p></article>
+        </div>
+
+        <ul class="feature-strip reveal">
+          <li>100% Natural</li>
+          <li>No Preservatives</li>
+          <li>Pure &bull; Natural &bull; Halal</li>
+          <li>Traditional Recipe</li>
+          <li>Premium Quality</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Straight From Our Kitchen</p>
+          <h2>Real Product Photos</h2>
+          <p class="lead">Freshly prepared Talbina boxes, packed with care and ready to order.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal"><img src="assets/img/product-1.png" alt="Stacked Ma Sha Allah Talbina boxes" loading="lazy" /></figure>
+          <figure class="gallery-item reveal"><img src="assets/img/product-2.png" alt="Talbina gift box with red ribbon" loading="lazy" /></figure>
+          <figure class="gallery-item reveal"><img src="assets/img/product-3.png" alt="Talbina box with blue ribbon, close-up of nuts and dates" loading="lazy" /></figure>
+          <figure class="gallery-item reveal"><img src="assets/img/product-4.png" alt="Several Talbina boxes stacked with ribbon" loading="lazy" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ORDER ============ -->
+    <section class="section order" id="order">
+      <div class="container order-inner">
+        <div class="section-head reveal">
+          <p class="eyebrow">Place Your Order</p>
+          <h2>Order on WhatsApp</h2>
+          <p class="lead">Choose your quantity, add your details, and we&rsquo;ll confirm your order on WhatsApp.</p>
+        </div>
+
+        <form class="order-form reveal" id="orderForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="custName">Full Name *</label>
+              <input type="text" id="custName" name="custName" placeholder="Your name" autocomplete="name" required />
+            </div>
+            <div class="form-field">
+              <label for="custPhone">Your WhatsApp/Phone</label>
+              <input type="tel" id="custPhone" name="custPhone" placeholder="e.g. 03XX XXXXXXX" autocomplete="tel" />
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="custAddress">City &amp; Complete Address *</label>
+            <input type="text" id="custAddress" name="custAddress" placeholder="City, area, house/flat" required />
+          </div>
+
+          <div class="cart">
+            <h3>Your Order</h3>
+            <div class="cart-qty">
+              <span>Quantity (100g boxes)</span>
+              <div class="qty-stepper" data-mirror>
+                <button class="qty-btn" data-action="dec" aria-label="Decrease quantity">&minus;</button>
+                <input class="qty-input" type="number" min="0" max="99" value="1" inputmode="numeric" aria-label="Quantity of Talbina boxes" />
+                <button class="qty-btn" data-action="inc" aria-label="Increase quantity">+</button>
+              </div>
+            </div>
+            <ul class="cart-lines" id="cartLines"></ul>
+            <p class="offer-note" id="offerNote">Buy 5 boxes, get 1 box FREE. 🎁</p>
+            <div class="cart-total">
+              <span>Total</span>
+              <strong id="cartTotal">Rs 600</strong>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="custNotes">Notes (optional)</label>
+            <textarea id="custNotes" name="custNotes" rows="3" placeholder="Any special request or message"></textarea>
+          </div>
+
+          <p class="form-error" id="formError" role="alert" hidden></p>
+
+          <button type="submit" class="btn btn-whatsapp btn-block btn-lg">
+            <span class="wa-ico" aria-hidden="true"></span>
+            Place Order on WhatsApp
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo-placeholder.svg" alt="Ma Sha Allah Talbina logo" class="brand-logo" />
+        <p>The Sunnah food for a healthy life — pure, natural and halal, made with care.</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#home">Home</a>
+        <a href="#product">Product</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#order">Order</a>
+      </nav>
+
+      <div class="footer-contact">
+        <p><strong>Order &amp; Contact</strong></p>
+        <p>WhatsApp: <span id="footerPhone">+92 344 3400024</span></p>
+        <div class="social-links" id="socialLinks">
+          <a href="#" class="social-btn social-whatsapp" id="socialWhatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <span class="wa-ico" aria-hidden="true"></span><span>WhatsApp</span>
+          </a>
+          <a href="https://www.instagram.com/mashaallahtalbina92" class="social-btn social-instagram" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.86s0 3.6-.07 4.9c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.86.07s-3.6 0-4.9-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 01-1.38-.9 3.7 3.7 0 01-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.21 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.4 2.21 8.8 2.2 12 2.2zm0 1.8c-3.15 0-3.5.01-4.74.07-.9.04-1.38.19-1.7.32-.43.16-.74.36-1.06.68-.32.32-.52.63-.68 1.06-.13.32-.28.8-.32 1.7C3.21 10.5 3.2 10.85 3.2 12s.01 3.5.07 4.74c.04.9.19 1.38.32 1.7.16.43.36.74.68 1.06.32.32.63.52 1.06.68.32.13.8.28 1.7.32 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c.9-.04 1.38-.19 1.7-.32.43-.16.74-.36 1.06-.68.32-.32.52-.63.68-1.06.13-.32.28-.8.32-1.7.06-1.24.07-1.59.07-4.74s-.01-3.5-.07-4.74c-.04-.9-.19-1.38-.32-1.7a2.85 2.85 0 00-.68-1.06 2.85 2.85 0 00-1.06-.68c-.32-.13-.8-.28-1.7-.32C15.5 4.01 15.15 4 12 4zm0 3.06A4.94 4.94 0 1112 17a4.94 4.94 0 010-9.88zm0 1.8a3.14 3.14 0 100 6.28 3.14 3.14 0 000-6.28zm5.14-.9a1.15 1.15 0 11-2.3 0 1.15 1.15 0 012.3 0z"/></svg>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.tiktok.com/@ma.sha.allah.talb" class="social-btn social-tiktok" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.6 5.82A4.28 4.28 0 0115.54 3h-3.09v12.4a2.59 2.59 0 11-2.59-2.59c.27 0 .53.04.78.12V9.2a5.76 5.76 0 00-.78-.05 5.66 5.66 0 105.66 5.66V9.01a7.35 7.35 0 004.3 1.38V7.3a4.28 4.28 0 01-3.14-1.48z"/></svg>
+            <span>TikTok</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Ma Sha Allah Talbina &bull; Sunnah Foods. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ FLOATING WHATSAPP BUTTON ============ -->
+  <a href="#" class="wa-float" id="waFloat" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+    <span class="wa-float-ico" aria-hidden="true"></span>
+    <span class="wa-float-label">Order on WhatsApp</span>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
